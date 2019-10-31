@@ -1,0 +1,173 @@
+@media (max-width: 1199px)
+		.menu
+				&_item
+						padding-right: 55px
+		.subheader
+				&_logo img
+						max-width: 100%
+						padding-top: 5px
+		.promo
+				&_text_header
+						font-size: 60px
+				&_text_subheader
+						font-size: 31px
+		.about_us
+				&_img
+						display: none
+				&_textblock
+						width: 100%
+		.service
+				&_title
+						font-size: 50px
+				&_block
+						margin-top: 80px
+				&_block_title
+						font-size: 25px
+						margin-top: 80px
+			
+@media (max-width: 991px)
+		.menu
+			&_item
+					padding-right: 25px
+		.subheader
+				&_logo img
+						max-width: 100%
+						padding-top: 10px
+				&_contacs
+						flex-direction: column
+						margin-top: 5px 
+						text-align: center
+		.promo
+				&_text_header
+						font-size: 50px
+				&_text_subheader
+						font-size: 25px
+
+		.contacts
+				&_subtitle	
+						margin-top: 80px	
+
+@media (max-width: 767px)
+		.menu
+				position: absolute
+				flex-direction: column
+				align-items: center
+				justify-content: center
+				top: 0
+				left: -100%
+				width: 100%
+				height: 100vh
+				padding: 20px 15px
+				background-color: rgba(0,0,0, .8)
+				transition: 0.6s all
+				&_active
+						left: 0
+						top: 0
+				&_item
+						padding-right: 0
+						border: none
+						margin: 10px 0
+				&_link
+					 font-size: 20px
+		.hamburger
+				display: block
+				position: absolute
+				right: 45px
+				top: 50%
+				transform: translateY(-50%)
+				width: 26px
+				height: 12 px
+				span
+						display: block
+						height: 2px
+						width: 100%
+						background-color: #fff
+						margin-bottom: 4px
+						transition: 0.5s all
+				&_active
+						span
+								margin-bottom: -2px
+								&:nth-child(1)
+										transform: translateY(3px) rotate(-45deg)
+								&:nth-child(2)
+										display: none
+								&:nth-child(3)
+										transform: translateY(3px) rotate(45deg)
+		a 
+				&:hover
+						color: white
+		
+		.subheader
+				height: 270px
+				&_logo img
+						max-width: 100%
+						padding-top: 10px
+						margin: 0 auto
+				&_contacs
+						width: 100%
+						padding-top: 10px
+						margin: 0 auto
+				&_social_menu
+						width: 100%
+						padding-top: 20px
+						margin: 0 auto
+						i 
+								font-size: 28px
+						
+		.promo
+				&_text_header
+						font-size: 50px
+				&_text_subheader
+						font-size: 30px
+				&_btn
+						margin-bottom: 130px
+						width: 100%
+						&:hover
+								color: #fff
+								background-color: #c4262e
+								border: none
+						
+		.about_us
+				padding: 0
+				margin: 150px 0  150px 0
+				&_textblock
+						padding: 20px
+				&_btn
+						width: 100%
+						margin: 15px auto
+						&:hover
+								color: #fff
+								background-color: #c4262e
+								border: none
+
+		.contacts
+				&_block_form
+						padding: 10px
+				&_btn
+						width: 100%
+						&:hover
+								color: #fff
+								background-color: #c4262e
+								border: none
+				a 
+						&:hover
+								color: #777777
+
+		.footer
+				a 
+						&:hover
+								color: #a5a5a5	
+							
+@media (max-width: 767px)
+		.menu
+				width: 85% 
+				&_item
+						width: 100%
+						text-align: center
+						padding: 5px
+				&_link
+						display: block
+		.hamburger 
+				right: 15px	
+				&_active
+					right: 15px			
